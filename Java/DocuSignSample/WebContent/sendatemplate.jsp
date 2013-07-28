@@ -1,7 +1,8 @@
 <%@ page session="true"
     import="
         net.docusign.sample.Utils,
-        net.docusign.api_3_0.*,
+        net.docusign.api._3_0.*,
+        net.docusign.api._3.*,
         java.util.List,
         java.util.Iterator"
     language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>

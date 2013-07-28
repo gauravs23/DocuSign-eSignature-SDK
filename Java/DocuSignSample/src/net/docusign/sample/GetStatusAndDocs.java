@@ -16,14 +16,15 @@ import javax.servlet.http.HttpSession;
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
 
-import net.docusign.api_3_0.APIServiceSoap;
-import net.docusign.api_3_0.ArrayOfString2;
-import net.docusign.api_3_0.EnvelopePDF;
-import net.docusign.api_3_0.EnvelopeStatusFilter;
-import net.docusign.api_3_0.FilteredEnvelopeStatuses;
-import net.docusign.api_3_0.RequestRecipientTokenAuthenticationAssertion;
-import net.docusign.api_3_0.RequestRecipientTokenAuthenticationAssertionAuthenticationMethod;
-import net.docusign.api_3_0.RequestRecipientTokenClientURLs;
+import net.docusign.api._3.ArrayOfString2;
+import net.docusign.api._3.EnvelopePDF;
+import net.docusign.api._3.EnvelopeStatusFilter;
+import net.docusign.api._3.FilteredEnvelopeStatuses;
+import net.docusign.api._3.RequestRecipientTokenAuthenticationAssertion;
+import net.docusign.api._3.RequestRecipientTokenAuthenticationAssertionAuthenticationMethod;
+import net.docusign.api._3.RequestRecipientTokenClientURLs;
+import net.docusign.api._3_0.APIServiceSoap;
+
 
 /**
  * Servlet implementation class GetStatusAndDocs

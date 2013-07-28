@@ -7,8 +7,8 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import net.docusign.api_3_0.APIServiceSoap;
-import net.docusign.api_3_0.ArrayOfString;
+import net.docusign.api._3_0.APIServiceSoap;
+
 
 public class Utils {
 

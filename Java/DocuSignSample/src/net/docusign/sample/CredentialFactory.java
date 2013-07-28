@@ -13,7 +13,7 @@ FITNESS FOR A PARTICULAR PURPOSE.
  */
 package net.docusign.sample;
 
-import net.docusign.credential.CredentialSoap;
+import net.docusign.api.credential.CredentialSoap;
 
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 

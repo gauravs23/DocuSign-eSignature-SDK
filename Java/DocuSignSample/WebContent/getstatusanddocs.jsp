@@ -1,9 +1,9 @@
 <%@ page  session="true" 
-    import="
-        net.docusign.sample.Utils, 
-        net.docusign.api_3_0.*,
+    import="net.docusign.sample.Utils, 
+        net.docusign.api._3_0.*,
+        net.docusign.api._3.*,
         java.util.List,
-        java.util.Iterator" 
+        java.util.Iterator"
     language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>

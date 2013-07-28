@@ -13,27 +13,27 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import net.docusign.api_3_0.APIServiceSoap;
-import net.docusign.api_3_0.ArrayOfRecipient;
-import net.docusign.api_3_0.ArrayOfRecipient1;
-import net.docusign.api_3_0.ArrayOfTemplateReference;
-import net.docusign.api_3_0.ArrayOfTemplateReferenceRoleAssignment;
-import net.docusign.api_3_0.Envelope;
-import net.docusign.api_3_0.EnvelopeInformation;
-import net.docusign.api_3_0.EnvelopeStatus;
-import net.docusign.api_3_0.EnvelopeStatusCode;
-import net.docusign.api_3_0.EnvelopeTemplate;
-import net.docusign.api_3_0.EnvelopeTemplates;
-import net.docusign.api_3_0.Expirations;
-import net.docusign.api_3_0.Notification;
-import net.docusign.api_3_0.Recipient;
-import net.docusign.api_3_0.RecipientCaptiveInfo;
-import net.docusign.api_3_0.RecipientTypeCode;
-import net.docusign.api_3_0.Reminders;
-import net.docusign.api_3_0.RequestSenderToken;
-import net.docusign.api_3_0.TemplateLocationCode;
-import net.docusign.api_3_0.TemplateReference;
-import net.docusign.api_3_0.TemplateReferenceRoleAssignment;
+import net.docusign.api._3_0.APIServiceSoap;
+import net.docusign.api._3.ArrayOfRecipient;
+import net.docusign.api._3.ArrayOfRecipient1;
+import net.docusign.api._3.ArrayOfTemplateReference;
+import net.docusign.api._3.ArrayOfTemplateReferenceRoleAssignment;
+import net.docusign.api._3.Envelope;
+import net.docusign.api._3.EnvelopeInformation;
+import net.docusign.api._3.EnvelopeStatus;
+import net.docusign.api._3.EnvelopeStatusCode;
+import net.docusign.api._3.EnvelopeTemplate;
+import net.docusign.api._3.EnvelopeTemplates;
+import net.docusign.api._3.Expirations;
+import net.docusign.api._3.Notification;
+import net.docusign.api._3.Recipient;
+import net.docusign.api._3.RecipientCaptiveInfo;
+import net.docusign.api._3.RecipientTypeCode;
+import net.docusign.api._3.Reminders;
+import net.docusign.api._3.RequestSenderToken;
+import net.docusign.api._3.TemplateLocationCode;
+import net.docusign.api._3.TemplateReference;
+import net.docusign.api._3.TemplateReferenceRoleAssignment;
 
 /**
  * Servlet implementation class SendATemplate

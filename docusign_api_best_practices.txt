@@ -82,7 +82,7 @@ You will need to perform these actions to ensure that your solution will functio
 Web Service 
 Account Management from https://demo.docusign.net/api/3.0/api.asmx to https://www.docusign.net/api/3.0/api.asmx
 Credential from https://demo.docusign.net/credential.asmx to https://www.docusign.net/credential.asmx
-Service from https://demo.docusign.net/api/3.0/dsapi.asmx to https://www.docusign.net/api/3.0/dsapi.asmx
+Service from https://demo.docusign.net/api/3.0/dsapi.asmx to https://www.docusign.net/api/3.0/dsapi.asmx
 2. Update both the API Account Number and API User ID to the production values.
 
 3. Typically, you do not need to change your Integrator Key.

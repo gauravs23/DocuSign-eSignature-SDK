@@ -26,7 +26,8 @@ import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
-import net.docusign.api_3_0.*;
+import net.docusign.api._3.*;
+import net.docusign.api._3_0.APIServiceSoap;
 
 /**
  * Servlet implementation class SendDocument

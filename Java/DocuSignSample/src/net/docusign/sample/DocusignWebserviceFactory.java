@@ -20,7 +20,9 @@ import java.util.Map;
 import javax.xml.ws.BindingProvider;
 import javax.xml.ws.soap.SOAPBinding;
 
-import net.docusign.api_3_0.APIServiceSoap;
+
+
+import net.docusign.api._3_0.APIServiceSoap;
 
 import org.apache.cxf.endpoint.Client;
 import org.apache.cxf.frontend.ClientProxy;

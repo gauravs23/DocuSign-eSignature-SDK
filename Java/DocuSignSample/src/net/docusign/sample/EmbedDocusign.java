@@ -18,25 +18,27 @@ import javax.servlet.http.HttpSession;
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
 
-import net.docusign.api_3_0.APIServiceSoap;
-import net.docusign.api_3_0.AnchorTab;
-import net.docusign.api_3_0.ArrayOfDocument;
-import net.docusign.api_3_0.ArrayOfRecipient;
-import net.docusign.api_3_0.ArrayOfTab;
-import net.docusign.api_3_0.CustomTabType;
-import net.docusign.api_3_0.Document;
-import net.docusign.api_3_0.Envelope;
-import net.docusign.api_3_0.EnvelopeStatus;
-import net.docusign.api_3_0.Recipient;
-import net.docusign.api_3_0.RecipientCaptiveInfo;
-import net.docusign.api_3_0.RecipientStatus;
-import net.docusign.api_3_0.RecipientTypeCode;
-import net.docusign.api_3_0.RequestRecipientTokenAuthenticationAssertion;
-import net.docusign.api_3_0.RequestRecipientTokenAuthenticationAssertionAuthenticationMethod;
-import net.docusign.api_3_0.RequestRecipientTokenClientURLs;
-import net.docusign.api_3_0.Tab;
-import net.docusign.api_3_0.TabTypeCode;
-import net.docusign.api_3_0.UnitTypeCode;
+import net.docusign.api._3.AnchorTab;
+import net.docusign.api._3.ArrayOfDocument;
+import net.docusign.api._3.ArrayOfRecipient;
+import net.docusign.api._3.ArrayOfTab;
+import net.docusign.api._3.CustomTabType;
+import net.docusign.api._3.Document;
+import net.docusign.api._3.Envelope;
+import net.docusign.api._3.EnvelopeStatus;
+import net.docusign.api._3.Recipient;
+import net.docusign.api._3.RecipientCaptiveInfo;
+import net.docusign.api._3.RecipientStatus;
+import net.docusign.api._3.RecipientTypeCode;
+import net.docusign.api._3.RequestRecipientTokenAuthenticationAssertion;
+import net.docusign.api._3.RequestRecipientTokenAuthenticationAssertionAuthenticationMethod;
+import net.docusign.api._3.RequestRecipientTokenClientURLs;
+import net.docusign.api._3.Tab;
+import net.docusign.api._3.TabTypeCode;
+import net.docusign.api._3.UnitTypeCode;
+import net.docusign.api._3_0.APIServiceSoap;
+
+
 
 /**
  * Servlet implementation class EmbedDocusign

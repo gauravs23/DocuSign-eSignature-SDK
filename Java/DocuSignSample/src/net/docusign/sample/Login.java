@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import net.docusign.credential.*;
-import net.docusign.credential.LoginResponse.LoginResult;
+import net.docusign.api.credential.*;
+import net.docusign.api.credential.LoginResponse.LoginResult;
 
 /**
  * Servlet implementation class Login
@@ -108,7 +108,7 @@ public class Login extends HttpServlet {
 			result = credApi.login(
 					"[" + session.getAttribute(Utils.SESSION_INTEGRATORS_KEY).toString() + "]" +
 					session.getAttribute(Utils.SESSION_EMAIL).toString(), 
-					session.getAttribute(Utils.SESSION_PASSWORD).toString());
+					session.getAttribute(Utils.SESSION_PASSWORD).toString(),true);
 		} catch (Exception e) {
 			// TODO: handle exception
 			ret = false;
